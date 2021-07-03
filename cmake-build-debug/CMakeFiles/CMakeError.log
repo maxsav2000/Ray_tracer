@@ -1,0 +1,35 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C++ SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /Users/maksimsavinov/Desktop/sem6/Машграф_2/v11.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40404/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_40404.dir/build.make CMakeFiles/cmTC_40404.dir/build
+Building CXX object CMakeFiles/cmTC_40404.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wextra -pedantic -std=c++11 -O3 -Dflag_supported -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -fopenmp -std=gnu++14 -o CMakeFiles/cmTC_40404.dir/src.cxx.o -c /Users/maksimsavinov/Desktop/sem6/Машграф_2/v11.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_40404.dir/src.cxx.o] Error 1
+make: *** [cmTC_40404/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

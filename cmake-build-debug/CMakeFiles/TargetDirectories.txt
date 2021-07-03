@@ -1,0 +1,3 @@
+/Users/maksimsavinov/Desktop/sem6/Машграф_2/v11.0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maksimsavinov/Desktop/sem6/Машграф_2/v11.0/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maksimsavinov/Desktop/sem6/Машграф_2/v11.0/cmake-build-debug/CMakeFiles/witch_2.dir
